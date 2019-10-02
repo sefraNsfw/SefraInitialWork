@@ -1,0 +1,47 @@
+<div  *ngIf="success" id="response-success" class="bs-callout bs-callout-warning">
+
+  <div  *ngIf="debugServices" id="rezultatHeaderDebug" class="col-sm-12 col-xs-12 ">
+      <p class="">Debug Informacije Toggle => <span class="bg-danger">Debug->debugServices</span></p>
+    <ul class="clanovi list-inline">
+        <li class="list-item">
+           <span class="">Used Solr Query: {{responseHeaderParams}}</span>
+        </li>
+        <li class="list-item">
+           <span class="">Vebran: {{vebran}}</span>
+        </li>
+        <li class="list-item">
+           <!--<span class="">Solr numFound: {{responseJSON}}</span>-->
+           <span class="">Solr numFound: {{response.response.numFound}}</span>
+           <span class="">maxScore: {{response.response.maxScore}}</span>
+           <span class="">start: {{response.response.start}}</span>
+        </li>
+        <li class="list-item">
+            <span>RgfService Time: {{rgfFinish - rgfStart | number}}</span> ms
+        </li>
+        <li class="list-item-inline">
+            <span>SolrService Time: {{solrFinish - solrStart | number}}</span> ms
+        </li>
+        <li class="list-item-inline">
+            <span>Solr Query Time: {{responseHeader.QTime}} ms</span>
+        </li>
+        <li class="list-item">
+            <span>TotalTime: {{solrFinish - rgfStart | number}}</span> ms
+        </li>
+    </ul>
+  </div>
+
+</div>
+  <div id="rezultat" class="col-sm-12 col-xs-12">
+    <ul class="clanovi list-inline">
+      <!--<li class="list-inline-item" *ngFor="let clan of clanovi" (click)="onSelect(clan)"
+          [class.selected]="clan === selectedClan">-->
+      <li class="list-inline-item" *ngFor="let clan of clanovi" [class.selected]="clan === selectedClan">
+        <span class="badge">Clan br.{{clan.clan_id}}</span>
+        <span class="badge bg-info">TF-IDF:{{clan.score | number}}</span>
+        <span class="badge bg-success">Relevantnost:{{clan.score / response.response.maxScore  | percent}}</span>
+        <p [innerHTML]="clan.tekst"></p>
+        <!--<button class="delete"
+          (click)="delete(clan); $event.stopPropagation()">x</button>-->
+      </li>
+    </ul>
+  </div>

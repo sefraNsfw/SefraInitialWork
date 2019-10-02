@@ -1,0 +1,98 @@
+.ng-valid[required], .ng-valid.required  {
+  border-left: 5px solid #42A948; /* green */
+}
+.ng-invalid:not(form)  {
+  border-left: 5px solid #a94442; /* red */
+}
+
+h1.title {
+  font-family: sans-serif;
+  font-size: 100px !important;
+  font-weight: normal;
+  color: #FF2222;
+}
+
+.selected {
+  background-color: #CFD8DC !important;
+  color: white;
+}
+.clanovi {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  /*width: 50em;*/
+  display: inline-block;
+
+}
+.clanovi ul {
+  color: #BBD8DC;
+  background-color: #DDD;
+  left: .1em;
+}
+.clanovi li {
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  background-color: #EEE;
+  margin: .5em;
+  padding: .3em 0;
+  height: 1.6em;
+  border-radius: 4px;
+  display: inline-block;
+}
+.clanovi li:hover {
+  color: #607D8B;
+  background-color: #DDD;
+  left: .1em;
+}
+.clanovi li.selected:hover {
+  background-color: #BBD8DC !important;
+  color: white;
+}
+/*.films .text {
+  position: relative;
+  top: -3px;
+  display: inline-block;
+    border: solid;
+}*/
+.clanovi .badge {
+  display: inline-block;
+  font-size: small;
+  color: white;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color: #607D8B;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  margin-right: .8em;
+  border-radius: 4px 0 0 4px;
+  width: 5em;
+}
+button {
+  font-family: Arial;
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  cursor: hand;
+}
+button:hover {
+  background-color: #cfd8dc;
+}
+button.delete {
+  float:right;
+  margin-top: 2px;
+  margin-right: .8em;
+  background-color: gray !important;
+  color:white;
+}
+
+.results {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  /*width: 50em;*/
+}

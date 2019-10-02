@@ -1,0 +1,177 @@
+{
+    "responseHeader": {
+        "status": 0,
+        "QTime": 0,
+        "params": {
+            "q": "delo",
+            "indent": "on",
+            "wt": "json"
+        }
+    },
+    "response": {
+        "numFound": 231,
+        "start": 0,
+        "docs": [
+            {
+                "tekst": [
+                    "Krivično delo\n\n(1) Krivično delo je ono delo koje je zakonom predviđeno kao krivično delo, koje je protivpravno i koje je skrivljeno. \n\n(2) Nema krivičnog dela ukoliko je isključena protivpravnost ili krivica, iako postoje sva obeležja krivičnog dela određena zakonom. \n\n"
+                ],
+                "text": [
+                    "Krivično delo\n\n(1) Krivično delo je ono delo koje je zakonom predviđeno kao krivično delo, koje je protivpravno i koje je skrivljeno. \n\n(2) Nema krivičnog dela ukoliko je isključena protivpravnost ili krivica, iako postoje sva obeležja krivičnog dela određena zakonom. \n\n"
+                ],
+                "clan_id": [
+                    14
+                ],
+                "text_general": [
+                    "Krivično delo\n\n(1) Krivično delo je ono delo koje je zakonom predviđeno kao krivično delo, koje je protivpravno i koje je skrivljeno. \n\n(2) Nema krivičnog dela ukoliko je isključena protivpravnost ili krivica, iako postoje sva obeležja krivičnog dela određena zakonom. \n\n"
+                ],
+                "id": "3496ad2b-65b3-4cb2-8a54-5bd2c39994b2",
+                "_version_": 1566461283652337700
+            },
+            {
+                "tekst": [
+                    "Delo malog značaja \n\n(1) Nije krivično delo ono delo koje, iako sadrži obeležja krivičnog dela, predstavlja delo malog značaja. \n\n(2) Delo je malog značaja ako je stepen krivice učinioca nizak, ako su štetne posledice odsutne ili neznatne i ako opšta svrha krivičnih sankcija ne zahteva izricanje krivične sankcije. \n\n(3) Odredbe st. 1. i 2. ovog člana mogu se primeniti na krivična dela za koja je propisana kazna zatvora do pet godina ili novčana kazna. \n\n"
+                ],
+                "text": [
+                    "Delo malog značaja \n\n(1) Nije krivično delo ono delo koje, iako sadrži obeležja krivičnog dela, predstavlja delo malog značaja. \n\n(2) Delo je malog značaja ako je stepen krivice učinioca nizak, ako su štetne posledice odsutne ili neznatne i ako opšta svrha krivičnih sankcija ne zahteva izricanje krivične sankcije. \n\n(3) Odredbe st. 1. i 2. ovog člana mogu se primeniti na krivična dela za koja je propisana kazna zatvora do pet godina ili novčana kazna. \n\n"
+                ],
+                "clan_id": [
+                    18
+                ],
+                "text_general": [
+                    "Delo malog značaja \n\n(1) Nije krivično delo ono delo koje, iako sadrži obeležja krivičnog dela, predstavlja delo malog značaja. \n\n(2) Delo je malog značaja ako je stepen krivice učinioca nizak, ako su štetne posledice odsutne ili neznatne i ako opšta svrha krivičnih sankcija ne zahteva izricanje krivične sankcije. \n\n(3) Odredbe st. 1. i 2. ovog člana mogu se primeniti na krivična dela za koja je propisana kazna zatvora do pet godina ili novčana kazna. \n\n"
+                ],
+                "id": "b540ac9b-064d-4e44-9654-315f591b8f2d",
+                "_version_": 1566461283368173600
+            },
+            {
+                "tekst": [
+                    "Stvarna zabluda \n\n(1) Nije krivično delo ono delo koje je učinjeno u neotklonjivoj stvarnoj zabludi. \n\n(2) Stvarna zabluda je neotklonjiva ako učinilac nije bio dužan i nije mogao da izbegne zabludu u pogledu neke stvarne okolnosti koja predstavlja obeležje krivičnog dela ili u pogledu neke stvarne okolnosti koja bi, da je zaista postojala, činila delo dozvoljenim. \n\n(3) Ako je učinilac bio u stvarnoj zabludi usled nehata, postojaće krivično delo učinjeno iz nehata kad zakon takvo krivično delo predviđa. \n\n"
+                ],
+                "text": [
+                    "Stvarna zabluda \n\n(1) Nije krivično delo ono delo koje je učinjeno u neotklonjivoj stvarnoj zabludi. \n\n(2) Stvarna zabluda je neotklonjiva ako učinilac nije bio dužan i nije mogao da izbegne zabludu u pogledu neke stvarne okolnosti koja predstavlja obeležje krivičnog dela ili u pogledu neke stvarne okolnosti koja bi, da je zaista postojala, činila delo dozvoljenim. \n\n(3) Ako je učinilac bio u stvarnoj zabludi usled nehata, postojaće krivično delo učinjeno iz nehata kad zakon takvo krivično delo predviđa. \n\n"
+                ],
+                "clan_id": [
+                    28
+                ],
+                "text_general": [
+                    "Stvarna zabluda \n\n(1) Nije krivično delo ono delo koje je učinjeno u neotklonjivoj stvarnoj zabludi. \n\n(2) Stvarna zabluda je neotklonjiva ako učinilac nije bio dužan i nije mogao da izbegne zabludu u pogledu neke stvarne okolnosti koja predstavlja obeležje krivičnog dela ili u pogledu neke stvarne okolnosti koja bi, da je zaista postojala, činila delo dozvoljenim. \n\n(3) Ako je učinilac bio u stvarnoj zabludi usled nehata, postojaće krivično delo učinjeno iz nehata kad zakon takvo krivično delo predviđa. \n\n"
+                ],
+                "id": "fe9e56bf-c018-4430-b93d-9ee8ac1719e8",
+                "_version_": 1566461283606200300
+            },
+            {
+                "tekst": [
+                    "Produženo krivično delo \n\n(1) Produženo krivično delo čini više istih ili istovrsnih krivičnih dela učinjenih u vremenskoj povezanosti od strane istog učinioca koja predstavljaju celinu zbog postojanja najmanje dve od sledećih okolnosti: istovetnosti oštećenog, istovrsnosti predmeta dela, korišćenja iste situacije ili istog trajnog odnosa, jedinstva mesta ili prostora izvršenja dela ili jedinstvenog umišljaja učinioca. \n\n(2) Krivična dela upravljena protiv ličnosti mogu činiti produženo krivično delo samo ako su učinjena prema istom licu. \n\n(3) Ne mogu činiti produženo krivično delo ona dela koja po svojoj prirodi ne dopuštaju spajanje u jedno delo. \n\n(4) Ako produženo krivično delo obuhvata lakše i teže oblike istog dela, smatraće se da je produženim krivičnim delom učinjen najteži oblik od učinjenih dela. \n\n(5) Ako produženo krivično delo obuhvata krivična dela čije je bitno obeležje određeni novčani iznos, smatraće se da je produženim krivičnim delom ostvaren zbir iznosa ostvarenih pojedinačnim delima ukoliko je to obuhvaćeno jedinstvenim umišljajem učinioca. \n\n(6) Krivično delo koje nije obuhvaćeno produženim krivičnim delom u pravnosnažnoj sudskoj presudi, predstavlja posebno krivično delo, odnosno ulazi u sastav posebnog produženog krivičnog dela.\n\n"
+                ],
+                "text": [
+                    "Produženo krivično delo \n\n(1) Produženo krivično delo čini više istih ili istovrsnih krivičnih dela učinjenih u vremenskoj povezanosti od strane istog učinioca koja predstavljaju celinu zbog postojanja najmanje dve od sledećih okolnosti: istovetnosti oštećenog, istovrsnosti predmeta dela, korišćenja iste situacije ili istog trajnog odnosa, jedinstva mesta ili prostora izvršenja dela ili jedinstvenog umišljaja učinioca. \n\n(2) Krivična dela upravljena protiv ličnosti mogu činiti produženo krivično delo samo ako su učinjena prema istom licu. \n\n(3) Ne mogu činiti produženo krivično delo ona dela koja po svojoj prirodi ne dopuštaju spajanje u jedno delo. \n\n(4) Ako produženo krivično delo obuhvata lakše i teže oblike istog dela, smatraće se da je produženim krivičnim delom učinjen najteži oblik od učinjenih dela. \n\n(5) Ako produženo krivično delo obuhvata krivična dela čije je bitno obeležje određeni novčani iznos, smatraće se da je produženim krivičnim delom ostvaren zbir iznosa ostvarenih pojedinačnim delima ukoliko je to obuhvaćeno jedinstvenim umišljajem učinioca. \n\n(6) Krivično delo koje nije obuhvaćeno produženim krivičnim delom u pravnosnažnoj sudskoj presudi, predstavlja posebno krivično delo, odnosno ulazi u sastav posebnog produženog krivičnog dela.\n\n"
+                ],
+                "clan_id": [
+                    61
+                ],
+                "text_general": [
+                    "Produženo krivično delo \n\n(1) Produženo krivično delo čini više istih ili istovrsnih krivičnih dela učinjenih u vremenskoj povezanosti od strane istog učinioca koja predstavljaju celinu zbog postojanja najmanje dve od sledećih okolnosti: istovetnosti oštećenog, istovrsnosti predmeta dela, korišćenja iste situacije ili istog trajnog odnosa, jedinstva mesta ili prostora izvršenja dela ili jedinstvenog umišljaja učinioca. \n\n(2) Krivična dela upravljena protiv ličnosti mogu činiti produženo krivično delo samo ako su učinjena prema istom licu. \n\n(3) Ne mogu činiti produženo krivično delo ona dela koja po svojoj prirodi ne dopuštaju spajanje u jedno delo. \n\n(4) Ako produženo krivično delo obuhvata lakše i teže oblike istog dela, smatraće se da je produženim krivičnim delom učinjen najteži oblik od učinjenih dela. \n\n(5) Ako produženo krivično delo obuhvata krivična dela čije je bitno obeležje određeni novčani iznos, smatraće se da je produženim krivičnim delom ostvaren zbir iznosa ostvarenih pojedinačnim delima ukoliko je to obuhvaćeno jedinstvenim umišljajem učinioca. \n\n(6) Krivično delo koje nije obuhvaćeno produženim krivičnim delom u pravnosnažnoj sudskoj presudi, predstavlja posebno krivično delo, odnosno ulazi u sastav posebnog produženog krivičnog dela.\n\n"
+                ],
+                "id": "7147f247-3b99-4d31-9378-31a295f6b728",
+                "_version_": 1566461283547480000
+            },
+            {
+                "tekst": [
+                    "Pravna zabluda \n\n(1) Nije krivično delo ono delo koje je učinjeno u neotklonjivoj pravnoj zabludi. \n\n(2) Pravna zabluda je neotklonjiva ako učinilac nije bio dužan i nije mogao da zna da je njegovo delo zabranjeno. \n\n(3) Učiniocu koji nije znao da je delo zabranjeno, ali je to bio dužan i mogao da zna, kazna se može ublažiti. \n\n"
+                ],
+                "text": [
+                    "Pravna zabluda \n\n(1) Nije krivično delo ono delo koje je učinjeno u neotklonjivoj pravnoj zabludi. \n\n(2) Pravna zabluda je neotklonjiva ako učinilac nije bio dužan i nije mogao da zna da je njegovo delo zabranjeno. \n\n(3) Učiniocu koji nije znao da je delo zabranjeno, ali je to bio dužan i mogao da zna, kazna se može ublažiti. \n\n"
+                ],
+                "clan_id": [
+                    29
+                ],
+                "text_general": [
+                    "Pravna zabluda \n\n(1) Nije krivično delo ono delo koje je učinjeno u neotklonjivoj pravnoj zabludi. \n\n(2) Pravna zabluda je neotklonjiva ako učinilac nije bio dužan i nije mogao da zna da je njegovo delo zabranjeno. \n\n(3) Učiniocu koji nije znao da je delo zabranjeno, ali je to bio dužan i mogao da zna, kazna se može ublažiti. \n\n"
+                ],
+                "id": "82def975-bfc9-487c-bda3-3817a99252a2",
+                "_version_": 1566461283369222100
+            },
+            {
+                "tekst": [
+                    "Pokušaj i lakše krivično delo \n\n(1) Ako je krivično delo ostalo u pokušaju podstrekač i pomagač će se kazniti za pokušaj. \n\n(2) Ako je izvršilac izvršio lakše krivično delo od onog na koje se podstrekavanje ili pomaganje odnosi, a koje bi bilo njime obuhvaćeno, podstrekač i pomagač će se kazniti za krivično delo koje je učinjeno. \n\n(3) Odredba stava 2. ovog člana neće se primeniti ako bi se podstrekač strože kaznio primenom člana 34. stav 2. ovog zakonika. \n\n"
+                ],
+                "text": [
+                    "Pokušaj i lakše krivično delo \n\n(1) Ako je krivično delo ostalo u pokušaju podstrekač i pomagač će se kazniti za pokušaj. \n\n(2) Ako je izvršilac izvršio lakše krivično delo od onog na koje se podstrekavanje ili pomaganje odnosi, a koje bi bilo njime obuhvaćeno, podstrekač i pomagač će se kazniti za krivično delo koje je učinjeno. \n\n(3) Odredba stava 2. ovog člana neće se primeniti ako bi se podstrekač strože kaznio primenom člana 34. stav 2. ovog zakonika. \n\n"
+                ],
+                "clan_id": [
+                    37
+                ],
+                "text_general": [
+                    "Pokušaj i lakše krivično delo \n\n(1) Ako je krivično delo ostalo u pokušaju podstrekač i pomagač će se kazniti za pokušaj. \n\n(2) Ako je izvršilac izvršio lakše krivično delo od onog na koje se podstrekavanje ili pomaganje odnosi, a koje bi bilo njime obuhvaćeno, podstrekač i pomagač će se kazniti za krivično delo koje je učinjeno. \n\n(3) Odredba stava 2. ovog člana neće se primeniti ako bi se podstrekač strože kaznio primenom člana 34. stav 2. ovog zakonika. \n\n"
+                ],
+                "id": "f7a5e86a-49c2-4797-aaa0-90a92ad9bc1f",
+                "_version_": 1566461283648143400
+            },
+            {
+                "tekst": [
+                    "Izvršenje krivičnog dela nečinjenjem \n\n(1) Krivično delo je učinjeno nečinjenjem kad zakon propuštanje da se preduzme određeno činjenje predviđa kao krivično delo. \n\n(2) Nečinjenjem može biti učinjeno i krivično delo koje je zakonom određeno kao činjenje, ako je učinilac propuštanjem dužnog činjenja ostvario obeležja tog krivičnog dela. \n\n"
+                ],
+                "text": [
+                    "Izvršenje krivičnog dela nečinjenjem \n\n(1) Krivično delo je učinjeno nečinjenjem kad zakon propuštanje da se preduzme određeno činjenje predviđa kao krivično delo. \n\n(2) Nečinjenjem može biti učinjeno i krivično delo koje je zakonom određeno kao činjenje, ako je učinilac propuštanjem dužnog činjenja ostvario obeležja tog krivičnog dela. \n\n"
+                ],
+                "clan_id": [
+                    15
+                ],
+                "text_general": [
+                    "Izvršenje krivičnog dela nečinjenjem \n\n(1) Krivično delo je učinjeno nečinjenjem kad zakon propuštanje da se preduzme određeno činjenje predviđa kao krivično delo. \n\n(2) Nečinjenjem može biti učinjeno i krivično delo koje je zakonom određeno kao činjenje, ako je učinilac propuštanjem dužnog činjenja ostvario obeležja tog krivičnog dela. \n\n"
+                ],
+                "id": "36fa888e-7543-4c4e-bfc6-1607f5c5dcce",
+                "_version_": 1566461283346153500
+            },
+            {
+                "tekst": [
+                    "Podstrekavanje \n\n(1) Ko drugog sa umišljajem podstrekne da izvrši krivično delo, kazniće se kaznom propisanom za to krivično delo. \n\n(2) Ko drugog sa umišljajem podstrekava na izvršenje krivičnog dela čiji pokušaj je po zakonu kažnjiv, a delo ne bude ni pokušano, kazniće se kao za pokušaj krivičnog dela. \n\n"
+                ],
+                "text": [
+                    "Podstrekavanje \n\n(1) Ko drugog sa umišljajem podstrekne da izvrši krivično delo, kazniće se kaznom propisanom za to krivično delo. \n\n(2) Ko drugog sa umišljajem podstrekava na izvršenje krivičnog dela čiji pokušaj je po zakonu kažnjiv, a delo ne bude ni pokušano, kazniće se kao za pokušaj krivičnog dela. \n\n"
+                ],
+                "clan_id": [
+                    34
+                ],
+                "text_general": [
+                    "Podstrekavanje \n\n(1) Ko drugog sa umišljajem podstrekne da izvrši krivično delo, kazniće se kaznom propisanom za to krivično delo. \n\n(2) Ko drugog sa umišljajem podstrekava na izvršenje krivičnog dela čiji pokušaj je po zakonu kažnjiv, a delo ne bude ni pokušano, kazniće se kao za pokušaj krivičnog dela. \n\n"
+                ],
+                "id": "a6968f3f-72e2-42ba-b2a8-992774fd497a",
+                "_version_": 1566461283371319300
+            },
+            {
+                "tekst": [
+                    "Krivično delo izvršeno po naređenju pretpostavljenog \n\nNeće se kazniti potčinjeni ako učini krivično delo po naređenju pretpostavljenog koje se tiče službene dužnosti, osim ako se naređenje odnosilo na izvršenje krivičnog dela za koje se može izreći pet godina zatvora ili teža kazna, a potčinjeni je znao da izvršenje naređenja predstavlja krivično delo. \n\n"
+                ],
+                "text": [
+                    "Krivično delo izvršeno po naređenju pretpostavljenog \n\nNeće se kazniti potčinjeni ako učini krivično delo po naređenju pretpostavljenog koje se tiče službene dužnosti, osim ako se naređenje odnosilo na izvršenje krivičnog dela za koje se može izreći pet godina zatvora ili teža kazna, a potčinjeni je znao da izvršenje naređenja predstavlja krivično delo. \n\n"
+                ],
+                "clan_id": [
+                    430
+                ],
+                "text_general": [
+                    "Krivično delo izvršeno po naređenju pretpostavljenog \n\nNeće se kazniti potčinjeni ako učini krivično delo po naređenju pretpostavljenog koje se tiče službene dužnosti, osim ako se naređenje odnosilo na izvršenje krivičnog dela za koje se može izreći pet godina zatvora ili teža kazna, a potčinjeni je znao da izvršenje naređenja predstavlja krivično delo. \n\n"
+                ],
+                "id": "6582a29b-da3e-4e4e-8466-d6bbdda1d923",
+                "_version_": 1566461283550625800
+            },
+            {
+                "tekst": [
+                    "Neprijavljivanje krivičnog dela i učinioca \n\n(1) Ko zna da je neko lice učinilo krivično delo za koje se po zakonu može izreći zatvor od trideset do četrdeset godina ili zna samo da je takvo delo učinjeno pa to ne prijavi pre nego što su delo, odnosno učinilac otkriveni,\tkazniće se zatvorom do tri godine. \n\n(2) Službeno ili odgovorno lice koje svesno propusti da prijavi krivično delo za koje je saznalo u vršenju svoje dužnosti, ako se za to delo po zakonu može izreći pet godina zatvora ili teža kazna,\tkazniće se zatvorom od šest meseci do pet godina.\n\n(3) Službeno ili odgovorno lice koje svesno propusti da prijavi krivično delo svog podređenog koje je on učinio pri vršenju svoje službene, vojne ili radne obaveze, ako se za to delo po zakonu može izreći zatvor od trideset do četrdeset godina,\tkazniće se zatvorom od jedne do osam godina. \n\n(4) Za neprijavljivanje krivičnog dela ili učinioca iz st. 1. i 2. ovog člana neće se kazniti lice kojem je učinilac supružnik ili sa kojim živi u trajnoj vanbračnoj zajednici, srodnik po krvi u pravoj liniji, brat ili sestra, usvojilac ili usvojenik, kao i supružnik nekog od navedenih lica, odnosno lice koje sa nekim od njih živi u trajnoj vanbračnoj zajednici, kao i branilac, lekar ili verski ispovednik učinioca. \n\n"
+                ],
+                "text": [
+                    "Neprijavljivanje krivičnog dela i učinioca \n\n(1) Ko zna da je neko lice učinilo krivično delo za koje se po zakonu može izreći zatvor od trideset do četrdeset godina ili zna samo da je takvo delo učinjeno pa to ne prijavi pre nego što su delo, odnosno učinilac otkriveni,\tkazniće se zatvorom do tri godine. \n\n(2) Službeno ili odgovorno lice koje svesno propusti da prijavi krivično delo za koje je saznalo u vršenju svoje dužnosti, ako se za to delo po zakonu može izreći pet godina zatvora ili teža kazna,\tkazniće se zatvorom od šest meseci do pet godina.\n\n(3) Službeno ili odgovorno lice koje svesno propusti da prijavi krivično delo svog podređenog koje je on učinio pri vršenju svoje službene, vojne ili radne obaveze, ako se za to delo po zakonu može izreći zatvor od trideset do četrdeset godina,\tkazniće se zatvorom od jedne do osam godina. \n\n(4) Za neprijavljivanje krivičnog dela ili učinioca iz st. 1. i 2. ovog člana neće se kazniti lice kojem je učinilac supružnik ili sa kojim živi u trajnoj vanbračnoj zajednici, srodnik po krvi u pravoj liniji, brat ili sestra, usvojilac ili usvojenik, kao i supružnik nekog od navedenih lica, odnosno lice koje sa nekim od njih živi u trajnoj vanbračnoj zajednici, kao i branilac, lekar ili verski ispovednik učinioca. \n\n"
+                ],
+                "clan_id": [
+                    332
+                ],
+                "text_general": [
+                    "Neprijavljivanje krivičnog dela i učinioca \n\n(1) Ko zna da je neko lice učinilo krivično delo za koje se po zakonu može izreći zatvor od trideset do četrdeset godina ili zna samo da je takvo delo učinjeno pa to ne prijavi pre nego što su delo, odnosno učinilac otkriveni,\tkazniće se zatvorom do tri godine. \n\n(2) Službeno ili odgovorno lice koje svesno propusti da prijavi krivično delo za koje je saznalo u vršenju svoje dužnosti, ako se za to delo po zakonu može izreći pet godina zatvora ili teža kazna,\tkazniće se zatvorom od šest meseci do pet godina.\n\n(3) Službeno ili odgovorno lice koje svesno propusti da prijavi krivično delo svog podređenog koje je on učinio pri vršenju svoje službene, vojne ili radne obaveze, ako se za to delo po zakonu može izreći zatvor od trideset do četrdeset godina,\tkazniće se zatvorom od jedne do osam godina. \n\n(4) Za neprijavljivanje krivičnog dela ili učinioca iz st. 1. i 2. ovog člana neće se kazniti lice kojem je učinilac supružnik ili sa kojim živi u trajnoj vanbračnoj zajednici, srodnik po krvi u pravoj liniji, brat ili sestra, usvojilac ili usvojenik, kao i supružnik nekog od navedenih lica, odnosno lice koje sa nekim od njih živi u trajnoj vanbračnoj zajednici, kao i branilac, lekar ili verski ispovednik učinioca. \n\n"
+                ],
+                "id": "cdf07053-fd4c-4d9b-b9e5-a24d0612849e",
+                "_version_": 1566461283646046200
+            }
+        ]
+    }
+}

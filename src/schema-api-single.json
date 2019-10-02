@@ -1,0 +1,3 @@
+{ "add-field":
+        {"name":"clan_id","type":"tlongs"}
+}

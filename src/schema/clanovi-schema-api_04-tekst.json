@@ -1,0 +1,40 @@
+curl -X POST -H 'Content-type:application/json' --data-binary '{
+  "add-field-type":{
+     "name":"text_rs",
+     "class":"solr.TextField",
+     "positionIncrementGap":"100",
+         "multiValued":"true",
+     "analyzer":{
+        "charFilters":[{
+           "class":"solr.PatternReplaceCharFilterFactory",
+           "replacement":"$1$1",
+           "pattern":"([a-zA-Z])\\\\1+" }],
+        "tokenizer":{
+           "class":"solr.StandardTokenizerFactory" },
+        "filters":[{
+           "class":"solr.StopFilterFactory",
+                   "ignoreCase":"true",
+                   "words":"stopwords_rs.txt"
+                                        }
+                                        ,{
+           "class":"solr.SynonymFilterFactory",
+                   "synonyms":"index_synonyms.txt",
+                   "ignoreCase":"true",
+                   "expand":"false"
+                                        }
+                                        ,{
+           "class":"solr.LowerCaseFilterFactory"
+                                        }
+                                        ,{
+           "class":"solr.SerbianNormalizationFilterFactory",
+                        "haircut":"bald"
+                                        }
+                                        ]}},
+   "add-field" : {
+                        "name":"tekst"
+                        ,"type":"text_rs"
+                        ,"multiValued":"true"
+                        ,"indexed":"true"
+                        ,"stored":"true"
+                                }
+}' http://localhost:8984/solr/sd/schema

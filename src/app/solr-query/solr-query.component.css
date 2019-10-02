@@ -1,0 +1,18 @@
+.ng-valid[required], .ng-valid.required  {
+  border-left: 5px solid #42A948; /* green */
+}
+.ng-invalid:not(form)  {
+  border-left: 5px solid #a94442; /* red */
+}
+
+.clanovi .badge {
+  display: inline-block;
+  font-size: small;
+  color: white;
+  background-color: #607D8B;
+  line-height: 1em;
+}
+
+mark {
+  background: yelow;
+}

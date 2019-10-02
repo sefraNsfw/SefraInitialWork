@@ -1,0 +1,28 @@
+<!--div container-->
+<div id="container" class="container-fluid">
+<!--div row upit-->
+<div class="row" id="row-upit">
+  <!--div upit col-->
+  <div id="upit" class="col-sm-3 col-xs-12">
+    <p>Ovde je upit</p>
+  <!--//div upit col-->
+  </div>
+<!--div rezultat-->
+  <div id="rezultat" class="col-sm-9 col-xs-12">
+    <p>Ovde su rezultati</p>
+    <ul class="clanovi">
+      <li *ngFor="let clan of clanovi" (click)="onSelect(clan)"
+          [class.selected]="clan === selectedClan">
+        <span class="badge">Clan br.{{clan.clan_id}}</span>
+        <span><p>{{clan.tekst}}</p></span>
+        <!--<button class="delete"
+          (click)="delete(clan); $event.stopPropagation()">x</button>-->
+      </li>
+    </ul>
+  </div>
+<!--// div rezultat-->
+</div>
+<!--div row rezultat-->
+
+</div>
+<!--//div container-->

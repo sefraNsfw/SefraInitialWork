@@ -1,0 +1,198 @@
+<!--div container-->
+<div id="container" class="container-fluid">
+
+<!--div row upit-->
+<div class="row" id="row-upit">
+  <!--div upit col-->
+  <div id="upit" class="col-sm-3 col-xs-12">
+    <form>
+      <!-- div form-group upit-->
+      <div class="form-group" id="upit-group">
+
+        <!-- div upit-polje-->
+        <div id="query-polje">
+        <!--<label class="inline" for="q">Upit</label>-->
+        <input type="text" class="form-control" required [(ngModel)]="solrquery.q" placeholder="upit" name="q" #clanName>
+        <button class="btn btn-success" (click)="searchClanovi(solrquery);" type="submit" >Traži</button>
+        <button class="btn btn-danger" (click)="resetQuery();" type="submit" >Reset</button>
+        </div>
+        <!-- //div upit-polje-->
+        </div>
+
+        <div class="form-group" id="upit-group-additional">
+        <!-- div additional query fields -->
+        <div id="form-additional" class="col-sm-3 col-xs-3" >
+        <!-- div form-hl -->
+        <div id="form-hl">
+          <input type="text" [(ngModel)]="solrquery.indent" placeholder="indent" name="indent"/>
+          <input type="text" [(ngModel)]="solrquery.wt" placeholder="wt" name="wt"/>
+          <input type="text" [(ngModel)]="solrquery.start" placeholder="start" name="start"/>
+          <input type="text" [(ngModel)]="solrquery.rows" placeholder="rows" name="rows"/>
+          <label class="checkbox-inline" [class.active]="solrquery.hl.on">
+            <input type="checkbox" [(ngModel)]="solrquery.hl.on" name="solrquery.hl.on">hl
+          </label>
+          <div *ngIf="solrquery.hl.on">
+            <input type="text" [(ngModel)]="solrquery.hl.fl" placeholder="hl.fl" name="hl.fl"/>
+            <input type="text" [(ngModel)]="solrquery.hl.simple.pre" placeholder="hl.simple.pre" name="hl.simple.pre"/>
+            <input type="text" [(ngModel)]="solrquery.hl.simple.post" placeholder="hl.simple.post" name="hl.simple.post"/>
+            <div class="checkbox-inline">
+            <label>
+              <input type="checkbox" [(ngModel)]="solrquery.hl.requireFieldMatch" placeholder="hl.requireFieldMatch" name="hl.requireFieldMatch"/>requireFieldMatch
+            </label>
+            <label>
+              <input type="checkbox" [(ngModel)]="solrquery.hl.usePhraseHighlighter" placeholder="hl.usePhraseHighlighter" name="hl.usePhraseHighlighter"/>usePhraseHighlighter
+            </label>
+            <label>
+              <input type="checkbox" [(ngModel)]="solrquery.hl.highlightMultiTerm" placeholder="hl.highlightMultiTerm" name="hl.highlightMultiTerm"/>highlightMultiTerm
+            </label>
+            </div>
+          </div>
+          <!-- //div form-hl -->
+
+          <!--// dismax-->
+          <div>
+            <label class="checkbox-inline" [class.active]="solrquery.dismax.on">
+              <!--<input type="checkbox" (click)="toggle(solrquery.dismax)" name="dismax">dismax-->
+              <input type="checkbox" [(ngModel)]="solrquery.dismax.on" name="solrquery.dismax.on">dismax
+            </label>
+            <div *ngIf="solrquery.dismax.on" id="form-dismax">
+              <input type="text" [(ngModel)]="solrquery.dismax.q.alt" placeholder="dismax.q.alt" name="dismax.q.alt"/>
+              <input type="text" [(ngModel)]="solrquery.dismax.qf" placeholder="dismax.qf" name="dismax.qf"/>
+              <input type="text" [(ngModel)]="solrquery.dismax.mm" placeholder="dismax.mm" name="dismax.mm"/>
+              <input type="text" [(ngModel)]="solrquery.dismax.pf" placeholder="dismax.pf" name="dismax.pf"/>
+              <input type="text" [(ngModel)]="solrquery.dismax.ps" placeholder="dismax.ps" name="dismax.ps"/>
+              <input type="text" [(ngModel)]="solrquery.dismax.qs" placeholder="dismax.qs" name="dismax.qs"/>
+              <input type="text" [(ngModel)]="solrquery.dismax.tie" placeholder="dismax.tie" name="dismax.tie"/>
+              <input type="text" [(ngModel)]="solrquery.dismax.bq" placeholder="dismax.bq" name="dismax.bq"/>
+              <input type="text" [(ngModel)]="solrquery.dismax.bf" placeholder="dismax.bf" name="dismax.bf"/>
+            </div>
+          </div>
+
+          <!-- edismax-->
+          <div>
+            <label class="checkbox-inline" [class.active]="solrquery.edismax.on">
+              <input type="checkbox" [(ngModel)]="solrquery.edismax.on" name="solrquery.edismax.on">edismax
+            </label>
+            <div *ngIf="solrquery.edismax.on" id="form-edismax">
+              <input type="text" [(ngModel)]="solrquery.edismax.q.alt" placeholder="edismax.q.alt" name="edismax.q.alt"/>
+              <input type="text" [(ngModel)]="solrquery.edismax.qf" placeholder="edismax.qf" name="edismax.qf"/>
+              <input type="text" [(ngModel)]="solrquery.edismax.mm" placeholder="edismax.mm" name="edismax.mm"/>
+              <input type="text" [(ngModel)]="solrquery.edismax.pf" placeholder="edismax.pf" name="edismax.pf"/>
+              <input type="text" [(ngModel)]="solrquery.edismax.ps" placeholder="edismax.ps" name="edismax.ps"/>
+              <input type="text" [(ngModel)]="solrquery.edismax.qs" placeholder="edismax.qs" name="edismax.qs"/>
+              <input type="text" [(ngModel)]="solrquery.edismax.tie" placeholder="edismax.tie" name="edismax.tie"/>
+              <input type="text" [(ngModel)]="solrquery.edismax.bq" placeholder="edismax.bq" name="edismax.bq"/>
+              <input type="text" [(ngModel)]="solrquery.edismax.bf" placeholder="edismax.bf" name="edismax.bf"/>
+              <input type="text" [(ngModel)]="solrquery.edismax.uf" placeholder="edismax.uf" name="edismax.uf"/>
+              <input type="text" [(ngModel)]="solrquery.edismax.pf2" placeholder="edismax.pf2" name="edismax.pf2"/>
+              <input type="text" [(ngModel)]="solrquery.edismax.pf3" placeholder="edismax.pf3" name="edismax.pf3"/>
+              <input type="text" [(ngModel)]="solrquery.edismax.ps2" placeholder="edismax.ps2" name="edismax.ps2"/>
+              <input type="text" [(ngModel)]="solrquery.edismax.ps3" placeholder="edismax.ps3" name="edismax.ps3"/>
+              <input type="text" [(ngModel)]="solrquery.edismax.boost" placeholder="edismax.boost" name="edismax.boost"/>
+              <div class="checkbox">
+                <label><input type="checkbox" [(ngModel)]="solrquery.edismax.stopwords" name="edismax.stopwords"/>stopwords</label>
+              </div>
+              <div class="checkbox">
+               <label><input type="checkbox" [(ngModel)]="solrquery.edismax.lowercaseOperators" name="edismax.lowercaseOperators"/>lowercaseOperators</label>
+              </div>
+           </div>
+          </div>
+          <!--// edismax-->
+
+          <!-- facet -->
+          <div>
+            <label class="checkbox-inline" [class.active]="solrquery.facet.on">
+              <input type="checkbox" [(ngModel)]="solrquery.facet.on" name="solrquery.facet.on">facet
+            </label>
+            <div *ngIf="solrquery.facet.on" id="form-facet">
+              <input type="text" [(ngModel)]="solrquery.facet.query" placeholder="facet.query" name="facet.query"/>
+              <input type="text" [(ngModel)]="solrquery.facet.field" placeholder="facet.field" name="facet.field"/>
+              <input type="text" [(ngModel)]="solrquery.facet.prefix" placeholder="facet.prefix" name="facet.prefix"/>
+            </div>
+          </div>
+          <!--// facet-->
+
+          <!-- spatial -->
+          <div>
+            <label class="checkbox-inline" [class.active]="solrquery.spatial.on">
+              <input type="checkbox" [(ngModel)]="solrquery.spatial.on" name="solrquery.spatial.on">spatial
+            </label>
+            <div *ngIf="solrquery.spatial.on" id="form-spatial">
+              <input type="text" [(ngModel)]="solrquery.spatial.pt" placeholder="spatial.pt" name="spatial.pt"/>
+              <input type="text" [(ngModel)]="solrquery.spatial.sfield" placeholder="spatial.sfield" name="spatial.sfield"/>
+              <input type="text" [(ngModel)]="solrquery.spatial.d" placeholder="spatial.d" name="spatial.d"/>
+            </div>
+          </div>
+          <!--// spatial-->
+          <!-- spellcheck -->
+          <div>
+            <label class="checkbox-inline" [class.active]="solrquery.spellcheck.on">
+              <input type="checkbox" [(ngModel)]="solrquery.spellcheck.on" name="solrquery.spellcheck.on">spellcheck
+            </label>
+            <div *ngIf="solrquery.spellcheck.on" id="form-spellcheck">
+              <input type="text" [(ngModel)]="solrquery.spellcheck.built" placeholder="spellcheck.built" name="spellcheck.built"/>
+              <input type="text" [(ngModel)]="solrquery.spellcheck.reload" placeholder="spellcheck.reload" name="spellcheck.reload"/>
+              <input type="text" [(ngModel)]="solrquery.spellcheck.q" placeholder="spellcheck.q" name="spellcheck.q"/>
+              <input type="text" [(ngModel)]="solrquery.spellcheck.dictionary" placeholder="spellcheck.dictionary" name="spellcheck.dictionary"/>
+              <input type="text" [(ngModel)]="solrquery.spellcheck.count" placeholder="spellcheck.count" name="spellcheck.count"/>
+              <div class="checkbox">
+                <label><input type="checkbox" [(ngModel)]="solrquery.spellcheck.onlyMorePopular" name="spellcheck.onlyMorePopular"/>onlyMorePopular</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" [(ngModel)]="solrquery.spellcheck.extendedResults" name="spellcheck.extendedResults"/>extendedResults</label>
+              </div>
+              <div class="checkbox">
+             <label><input type="checkbox" [(ngModel)]="solrquery.spellcheck.collate" name="spellcheck.collate"/>collate</label>
+              </div>
+              <input type="text" [(ngModel)]="solrquery.spellcheck.maxCollations" placeholder="spellcheck.maxCollations" name="spellcheck.maxCollations"/>
+              <input type="text" [(ngModel)]="solrquery.spellcheck.maxCollationTries" placeholder="spellcheck.maxCollationTries" name="spellcheck.maxCollationTries"/>
+              <input type="text" [(ngModel)]="solrquery.spellcheck.accuracy" placeholder="spellcheck.accuracy" name="spellcheck.accuracy"/>
+            </div>
+          </div>
+          <!--// spellcheck-->
+          
+          </div>
+
+        </div>
+        <!-- //div row additional query fields -->
+
+      </div>
+      <!-- //div form-group upit-->
+    </form>
+
+  <!--//div upit col-->
+  </div>
+<!--//div row upit-->
+<!--</div>-->
+<!--OLD QUERY
+<div>
+  <label>Upit:</label>
+  <input [(ngModel)]="solrquery.q" (keyup.enter)="searchClanovi(solrquery); solrquery.q=''" #clanName/>
+  <input [(ngModel)]="solrquery.indent" placeholder="indent"/>
+  <input [(ngModel)]="solrquery.wt" placeholder="wt"/>
+  <input [(ngModel)]="solrquery.start" placeholder="start"/>
+  <input [(ngModel)]="solrquery.rows" placeholder="rows"/>
+  <button (click)="searchClanovi(solrquery); solrquery.q=''">Trazi</button>
+</div>-->
+<!--<p>solr-query finished! </p>-->
+
+<!--div row rezultat-->
+<!--<div class="row" id="row-rezultat">-->
+<!--div rezultat-->
+  <div id="rezultat" class="col-sm-9 col-xs-12">
+    <ul class="clanovi">
+      <li *ngFor="let clan of clanovi" (click)="onSelect(clan)"
+          [class.selected]="clan === selectedClan">
+        <span class="badge">Clan br.{{clan.clan_id}}</span>
+        <span><p>{{clan.tekst}}</p></span>
+        <!--<button class="delete"
+          (click)="delete(clan); $event.stopPropagation()">x</button>-->
+      </li>
+    </ul>
+  </div>
+<!--// div rezultat-->
+</div>
+<!--div row rezultat-->
+
+</div>
+<!--//div container-->
